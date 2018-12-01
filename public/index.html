@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Yump Proxy</title>
+    <title>NoMnOmS</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
   </head>
@@ -10,13 +10,16 @@
     <div id="overview"></div>
     <div id="main-container">
       <div id="middle-container">
-        <div id="popular-dishes"></div>
+        <div id="PopularDishes"></div>
         <div id="recommended-reviews"></div>
       </div>
-      <div id="yump-reservation-hours"></div>
+      <div id="reservation-container"></div>
     </div>
     <script src="/lib/react.development.js"></script>
     <script src="/lib/react-dom.development.js"></script>
-    <script src="http://localhost:9001/bundle.js"></script>
+    <script src="http://54.144.31.20/bundle.js"></script> <!-- overview -->
+    <script src="http://3.16.143.18/bundled.js"></script> <!-- reviews -->
+    <script src="http://ec2-34-216-238-63.us-west-2.compute.amazonaws.com/nomnoms/b806d2ca-c9f1-4bb6-8ab4-c7218130446b/dist/bundle.js"></script> <!-- reservations -->
+    <script src="http://ec2-18-223-247-137.us-east-2.compute.amazonaws.com:2000/bundle.js"></script> <!-- dishes -->
   </body>
 </html>

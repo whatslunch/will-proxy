@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:watch": "nodemon ./server.js",
+    "start:dev": "nodemon ./server.js",
+    "start:prd": "node ./server.js",
     "stress": "k6 run stress.js"
   },
   "keywords": [],
@@ -12,7 +13,9 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
+    "compression": "^1.7.3",
     "express": "^4.16.2",
+    "http-proxy-middleware": "^0.19.1",
     "morgan": "^1.9.0",
     "newrelic": "^4.11.0",
     "nodemon": "^1.18.6"
